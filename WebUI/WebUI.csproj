@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Views\Zoo\" />
+=======
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+>>>>>>> b065106b267d8538a8392b74912c82abf7affe06
   </ItemGroup>
 
 </Project>
