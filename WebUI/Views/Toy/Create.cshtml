@@ -1,0 +1,113 @@
+﻿@model WebUI.Models.Toy
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Toy</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="exclamation" class="control-label"></label>
+                <input asp-for="exclamation" class="form-control" />
+                <span asp-validation-for="exclamation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sound" class="control-label"></label>
+                <input asp-for="sound" class="form-control" />
+                <span asp-validation-for="sound" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="adjective" class="control-label"></label>
+                <input asp-for="adjective" class="form-control" />
+                <span asp-validation-for="adjective" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="noun" class="control-label"></label>
+                <input asp-for="noun" class="form-control" />
+                <span asp-validation-for="noun" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="month" class="control-label"></label>
+                <input asp-for="month" class="form-control" />
+                <span asp-validation-for="month" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sound2" class="control-label"></label>
+                <input asp-for="sound2" class="form-control" />
+                <span asp-validation-for="sound2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="adjective2" class="control-label"></label>
+                <input asp-for="adjective2" class="form-control" />
+                <span asp-validation-for="adjective2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="noun2" class="control-label"></label>
+                <input asp-for="noun2" class="form-control" />
+                <span asp-validation-for="noun2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="verb" class="control-label"></label>
+                <input asp-for="verb" class="form-control" />
+                <span asp-validation-for="verb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="verb2" class="control-label"></label>
+                <input asp-for="verb2" class="form-control" />
+                <span asp-validation-for="verb2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="beverage" class="control-label"></label>
+                <input asp-for="beverage" class="form-control" />
+                <span asp-validation-for="beverage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="number" class="control-label"></label>
+                <input asp-for="number" class="form-control" />
+                <span asp-validation-for="number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="color" class="control-label"></label>
+                <input asp-for="color" class="form-control" />
+                <span asp-validation-for="color" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="color2" class="control-label"></label>
+                <input asp-for="color2" class="form-control" />
+                <span asp-validation-for="color2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="number2" class="control-label"></label>
+                <input asp-for="number2" class="form-control" />
+                <span asp-validation-for="number2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nounPl" class="control-label"></label>
+                <input asp-for="nounPl" class="form-control" />
+                <span asp-validation-for="nounPl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nounPl2" class="control-label"></label>
+                <input asp-for="nounPl2" class="form-control" />
+                <span asp-validation-for="nounPl2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
