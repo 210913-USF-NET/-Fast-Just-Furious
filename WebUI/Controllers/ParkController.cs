@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebUI.Models;
 
 namespace WebUI.Controllers
     {
@@ -30,11 +31,11 @@ namespace WebUI.Controllers
         // POST: ParkController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Park park)
             {
             try
                 {
-                return RedirectToAction(nameof(Index));
+                return VIew("Index", park);
                 }
             catch
                 {
