@@ -1,4 +1,4 @@
-﻿@model WebUI.Models.Zoo
+﻿@model WebUI.Models.Park
 
 @{
     ViewData["Title"] = "Create";
@@ -6,7 +6,7 @@
 
 <h1>Create</h1>
 
-<h4>Zoo</h4>
+<h4>Park</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -18,14 +18,14 @@
                 <span asp-validation-for="adjective" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="nounPl" class="control-label"></label>
+                <input asp-for="nounPl" class="form-control" />
+                <span asp-validation-for="nounPl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="noun" class="control-label"></label>
                 <input asp-for="noun" class="form-control" />
                 <span asp-validation-for="noun" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="verbPt" class="control-label"></label>
-                <input asp-for="verbPt" class="form-control" />
-                <span asp-validation-for="verbPt" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="adverb" class="control-label"></label>
@@ -33,39 +33,29 @@
                 <span asp-validation-for="adverb" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="number" class="control-label"></label>
+                <input asp-for="number" class="form-control" />
+                <span asp-validation-for="number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="verbPt" class="control-label"></label>
+                <input asp-for="verbPt" class="form-control" />
+                <span asp-validation-for="verbPt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="adjective2" class="control-label"></label>
                 <input asp-for="adjective2" class="form-control" />
                 <span asp-validation-for="adjective2" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="noun2" class="control-label"></label>
-                <input asp-for="noun2" class="form-control" />
-                <span asp-validation-for="noun2" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="noun3" class="control-label"></label>
-                <input asp-for="noun3" class="form-control" />
-                <span asp-validation-for="noun3" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="adjective3" class="control-label"></label>
-                <input asp-for="adjective3" class="form-control" />
-                <span asp-validation-for="adjective3" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="verb" class="control-label"></label>
-                <input asp-for="verb" class="form-control" />
-                <span asp-validation-for="verb" class="text-danger"></span>
+                <label asp-for="verbPt2" class="control-label"></label>
+                <input asp-for="verbPt2" class="form-control" />
+                <span asp-validation-for="verbPt2" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="adverb2" class="control-label"></label>
                 <input asp-for="adverb2" class="form-control" />
                 <span asp-validation-for="adverb2" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="verbPt2" class="control-label"></label>
-                <input asp-for="verbPt2" class="form-control" />
-                <span asp-validation-for="verbPt2" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="adjective4" class="control-label"></label>
