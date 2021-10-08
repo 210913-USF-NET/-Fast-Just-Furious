@@ -13,6 +13,7 @@ namespace WebUI.Models
         public string adverb { get; set; }
         public string adjective2 { get; set; }
         public string noun2 { get; set; }
+        public string noun3 { get; set; }
         public string adjective3 { get; set; }
         public string verb { get; set; }
         public string adverb2 { get; set; }
