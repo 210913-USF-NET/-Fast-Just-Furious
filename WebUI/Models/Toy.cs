@@ -35,6 +35,8 @@ namespace WebUI.Models
         [Required]
         public string color { get; set; }
         [Required]
+        public string color2 { get; set; }
+        [Required]
         public string number2 { get; set; }
         [Required]
         public string nounPl { get; set; }
