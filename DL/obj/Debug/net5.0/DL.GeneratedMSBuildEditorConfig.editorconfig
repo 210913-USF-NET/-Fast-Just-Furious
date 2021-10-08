@@ -7,4 +7,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = DL
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Htp21\source\repos\-Fast-Just-Furious\DL\
+=======
+build_property.ProjectDir = D:\Revature\Training code\-Fast-Just-Furious\DL\
+>>>>>>> 6f2e7475cdc61edbd02e197e36667ea0acf2aebe

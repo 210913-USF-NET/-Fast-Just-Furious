@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "exvuhoGt+rVL4ST6/kVGpAvwyFrLKUKYtvqj48W8KhTAlmKVK+onm/LN2YUxMXz6ZhpYdpaf7PJ9t25ruTMJIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Htp21\\source\\repos\\-Fast-Just-Furious\\DL\\DL.csproj",
+=======
+  "dgSpecHash": "6VTN+q9OnrLqHEYgYxQmyofNti2L44dSIgZT8ZgBg4mXpsZeQm96I/f1NA1imnUFsaMecLVsvAXUXW5nw/JUHg==",
+  "success": true,
+  "projectFilePath": "D:\\Revature\\Training code\\-Fast-Just-Furious\\DL\\DL.csproj",
+>>>>>>> 6f2e7475cdc61edbd02e197e36667ea0acf2aebe
   "expectedPackageFiles": [],
   "logs": []
 }
