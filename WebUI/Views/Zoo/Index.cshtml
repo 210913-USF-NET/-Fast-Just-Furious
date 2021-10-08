@@ -1,0 +1,44 @@
+﻿@model IEnumerable<WebUI.Models.Zoo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    Today I went to the zoo. I saw a(n) @Html.DisplayNameFor(model => model.adjective)
+</p>
+<p>
+    @Html.DisplayNameFor(model => model.noun) jumping up and down in its tree.
+</p>
+<p>
+    He @Html.DisplayNameFor(model => model.verbPt) @Html.DisplayNameFor(model => model.adverb)
+</p>
+<p>
+    through the large tunnel that led to its  @Html.DisplayNameFor(model => model.adjective2)
+</p>
+<p>
+    @Html.DisplayNameFor(model => model.noun2). I got some peanuts and passed
+</p>
+<p>
+    them through the cage to a gigantic gray @Html.DisplayNameFor(model => model.noun3)
+</p>
+<p>
+    towering above my head. Feeding that animal made
+</p>
+<p>
+    me hungry. I went to get a @Html.DisplayNameFor(model => model.adjective3) scoop
+</p>
+<p>
+    of ice cream. It filled my stomach. Afterwards I had to
+</p>
+<p>
+    @Html.DisplayNameFor(model => model.verb) @Html.DisplayNameFor(model => model.adverb2) to catch our bus.
+</p>
+<p>
+    When I got home I @Html.DisplayNameFor(model => model.verbPt2) my
+</p>
+<p>
+    mom for a @Html.DisplayNameFor(model => model.adjective4) day at the zoo.
+</p>
