@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebUI.Models.Disney>
+﻿@model WebUI.Models.Disney
 
 @{
     ViewData["Title"] = "Index";
@@ -7,14 +7,14 @@
 <h1>My Trip To Disney World!</h1>
 
 <p>
-    Last month, I went to Disney World with  @Html.DisplayNameFor(model => model.name) . We
-    traveled for @Html.DisplayNameFor(model => model.number) by  @Html.DisplayNameFor(model => model.vehicle). Finally, we
-    arrived and it was very @Html.DisplayNameFor(model => model.adjective). There were
-    @Html.DisplayNameFor(model => model.adjective2) people @Html.DisplayNameFor(model => model.verb) everywhere. There
-    were also people dressed up in @Html.DisplayNameFor(model => model.animal) costumes.
-    I wish it had been more@Html.DisplayNameFor(model => model.adjective3), but we @Html.DisplayNameFor(model => model.verbPt) anyway.
-    We also went on a(n) @Html.DisplayNameFor(model => model.adjective4) ride
-    called Magic (noun). @Html.DisplayNameFor(model => model.name2) nearly fell off a ride and had to be
-    @Html.DisplayNameFor(model => model.verbPt2). Later, we went to the hotel and
-    @Html.DisplayNameFor(model => model.verbPt3). Next year, I want to go to @Html.DisplayNameFor(model => model.place),
-    where we can @Html.DisplayNameFor(model => model.verb2).
+    Last month, I went to Disney World with  @Html.DisplayFor(model => model.name) . We
+    traveled for @Html.DisplayFor(model => model.number) by  @Html.DisplayFor(model => model.vehicle). Finally, we
+    arrived and it was very @Html.DisplayFor(model => model.adjective). There were
+    @Html.DisplayFor(model => model.adjective2) people @Html.DisplayFor(model => model.verb) everywhere. There
+    were also people dressed up in @Html.DisplayFor(model => model.animal) costumes.
+    I wish it had been more@Html.DisplayFor(model => model.adjective3), but we @Html.DisplayFor(model => model.verbPt) anyway.
+    We also went on a(n) @Html.DisplayFor(model => model.adjective4) ride
+    called Magic (noun). @Html.DisplayFor(model => model.name2) nearly fell off a ride and had to be
+    @Html.DisplayFor(model => model.verbPt2). Later, we went to the hotel and
+    @Html.DisplayFor(model => model.verbPt3). Next year, I want to go to @Html.DisplayFor(model => model.place),
+    where we can @Html.DisplayFor(model => model.verb2).
