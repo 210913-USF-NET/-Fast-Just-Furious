@@ -8,7 +8,7 @@ using WebUI.Models;
 
 namespace WebUI.Controllers
 {
-    public class ZooContoller : Controller
+    public class ZooController : Controller
     {
         // GET: ZooContoller
         public ActionResult Index()
