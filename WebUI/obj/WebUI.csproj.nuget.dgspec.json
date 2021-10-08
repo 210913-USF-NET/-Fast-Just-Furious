@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Revature\\Training code\\-Fast-Just-Furious\\WebUI\\WebUI.csproj": {}
+    "C:\\Users\\Htp21\\Source\\Repos\\-Fast-Just-Furious\\WebUI\\WebUI.csproj": {}
   },
   "projects": {
-    "D:\\Revature\\Training code\\-Fast-Just-Furious\\WebUI\\WebUI.csproj": {
+    "C:\\Users\\Htp21\\Source\\Repos\\-Fast-Just-Furious\\WebUI\\WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Revature\\Training code\\-Fast-Just-Furious\\WebUI\\WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\Htp21\\Source\\Repos\\-Fast-Just-Furious\\WebUI\\WebUI.csproj",
         "projectName": "WebUI",
-        "projectPath": "D:\\Revature\\Training code\\-Fast-Just-Furious\\WebUI\\WebUI.csproj",
-        "packagesPath": "C:\\Users\\Teeni\\.nuget\\packages\\",
-        "outputPath": "D:\\Revature\\Training code\\-Fast-Just-Furious\\WebUI\\obj\\",
+        "projectPath": "C:\\Users\\Htp21\\Source\\Repos\\-Fast-Just-Furious\\WebUI\\WebUI.csproj",
+        "packagesPath": "C:\\Users\\Htp21\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Htp21\\Source\\Repos\\-Fast-Just-Furious\\WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Teeni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Htp21\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
