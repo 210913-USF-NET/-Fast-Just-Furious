@@ -1,0 +1,68 @@
+﻿@model WebUI.Models.Arcade
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Arcade</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nounPl" class="control-label"></label>
+                <input asp-for="nounPl" class="form-control" />
+                <span asp-validation-for="nounPl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nounPl2" class="control-label"></label>
+                <input asp-for="nounPl2" class="form-control" />
+                <span asp-validation-for="nounPl2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="verb" class="control-label"></label>
+                <input asp-for="verb" class="form-control" />
+                <span asp-validation-for="verb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="noun" class="control-label"></label>
+                <input asp-for="noun" class="form-control" />
+                <span asp-validation-for="noun" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="verb2" class="control-label"></label>
+                <input asp-for="verb2" class="form-control" />
+                <span asp-validation-for="verb2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nounPl3" class="control-label"></label>
+                <input asp-for="nounPl3" class="form-control" />
+                <span asp-validation-for="nounPl3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="noun2" class="control-label"></label>
+                <input asp-for="noun2" class="form-control" />
+                <span asp-validation-for="noun2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nounPl4" class="control-label"></label>
+                <input asp-for="nounPl4" class="form-control" />
+                <span asp-validation-for="nounPl4" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-area="" asp-controller="Home" asp-action="Index">Back</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
