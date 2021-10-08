@@ -38,7 +38,7 @@ namespace WebUI.Controllers
             try
             {
 
-                return RedirectToAction(nameof(Index));
+                return View("Index", zoo);
             }
             catch
             {
