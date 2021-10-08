@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebUI.Models.Toy>
+﻿@model WebUI.Models.Toy
 
 @{
     ViewData["Title"] = "Index";
@@ -8,103 +8,18 @@
 
 <p>
     There is a new toy on the market that has everyone saying
-    @Html.DisplayNameFor(model => model.exclamation)! It is called the  @Html.DisplayNameFor(model => model.sound)
-    @Html.DisplayNameFor(model => model.adjective) @Html.DisplayNameFor(model => model.noun) box, and will be in stores in
-    @Html.DisplayNameFor(model => model.month). The @Html.DisplayNameFor(model => model.sound2)
-    @Html.DisplayNameFor(model => model.adjective2) @Html.DisplayNameFor(model => model.noun2) box is a new gadget that
+    @Html.DisplayFor(model => model.exclamation)! It is called the  @Html.DisplayFor(model => model.sound)
+    @Html.DisplayFor(model => model.adjective) @Html.DisplayFor(model => model.noun) box, and will be in stores in
+    @Html.DisplayFor(model => model.month). The @Html.DisplayFor(model => model.sound2)
+    @Html.DisplayFor(model => model.adjective2) @Html.DisplayFor(model => model.noun2) box is a new gadget that
     lets you do just about anything!
-    It @Html.DisplayNameFor(model => model.verb)s, it  @Html.DisplayNameFor(model => model.verb2)s, and it even serves
-    @Html.DisplayNameFor(model => model.beverage)! It is easy to operate and requires no
+    It @Html.DisplayFor(model => model.verb)s, it  @Html.DisplayFor(model => model.verb2)s, and it even serves
+    @Html.DisplayFor(model => model.beverage)! It is easy to operate and requires no
     instructions!
     You can also have it custom made any size up to
-    @Html.DisplayNameFor(model => model.number) inches or a @Html.DisplayNameFor(model => model.color) to glow in the
+    @Html.DisplayFor(model => model.number) inches or a @Html.DisplayFor(model => model.color) to glow in the
     dark at no extra charge! The original product is pocket-sized and
-    @Html.DisplayNameFor(model => model.color2). There are @Html.DisplayNameFor(model => model.number2) jacks on the
+    @Html.DisplayFor(model => model.color2). There are @Html.DisplayFor(model => model.number2) jacks on the
     product for 6V DC power and for upgrades and add-ons. You can add
-    head-phones, @Html.DisplayNameFor(model => model.nounPl) monitors, @Html.DisplayNameFor(model => model.nounPl2), and more! It’s possible to use them all at the same time!
+    head-phones, @Html.DisplayFor(model => model.nounPl) monitors, @Html.DisplayFor(model => model.nounPl2), and more! It’s possible to use them all at the same time!
 </p>
-
-            <th>
-               
-            </th>
-            <th>
-                
-            </th>
-            <th>
-               
-            </th>
-            <th>
-                
-            </th>
-            <th>
-                
-            </th>
-            <th>
-                
-            </th>
-            <th>
-                
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.exclamation)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.sound)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.adjective)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.noun)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.month)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.sound2)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.adjective2)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.noun2)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.verb)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.verb2)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.beverage)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.number)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.color)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.number2)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.nounPl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.nounPl2)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
