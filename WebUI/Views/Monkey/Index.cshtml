@@ -1,0 +1,17 @@
+﻿@model IEnumerable<WebUI.Models.Monkey>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>The Monkey King!</h1>
+
+<p>
+    The day I saw the Monkey King @Html.DisplayNameFor(model => model.verb) was one of the most
+    interesting days of the year.
+    After he did that, the king played chess on his brother's
+    @Html.DisplayNameFor(model => model.verb) and then combed his @Html.DisplayNameFor(model => model.adjective) hair with a
+    comb made out of old fish bones. Later that same day, I saw the
+    Monkey King dance @Html.DisplayNameFor(model => model.adverb)
+    in front of an audience of kangaroos and wombats.
+</p>
